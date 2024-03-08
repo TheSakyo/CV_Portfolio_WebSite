@@ -24,6 +24,7 @@ function MouseListener(mouseevent, elementParent, elementOne, elementTwo) {
 
 MouseListener('enter', $('#phone'), $('#show-num'), $('#num'));
 MouseListener('enter', $('#email'), $('#show-mail'), $('#mail'));
+MouseListener('enter', $('#address'), $('#show-address'), $('#address'));
 
                         /* --------------------------- */
 
@@ -43,5 +44,6 @@ MouseListener('leave', $('#music'), $('#title-music'), $('#info-music'));
 
 MouseListener('leave', $('#phone'), $('#show-num'), $('#num'));
 MouseListener('leave', $('#email'), $('#show-mail'), $('#mail'));
+MouseListener('leave', $('#address'), $('#show-address'), $('#address'));
 
 /* -------------------------------------------------------- */
