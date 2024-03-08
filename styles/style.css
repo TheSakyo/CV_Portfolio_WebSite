@@ -19,6 +19,8 @@
     align-self: center;
 }
 
+#phone, #email, #residential { cursor: pointer; }
+
 .h2-navbar { font-size: 20px !important; }
 
 .preLine { white-space: pre-line; }
