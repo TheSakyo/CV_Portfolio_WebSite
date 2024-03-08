@@ -15,8 +15,8 @@
     filter: drop-shadow(0 0 0.15rem rgb(78, 78, 78));
     border: black solid 1px;
     border-radius: 40px;
-    height: calc(clamp(9.375rem, 8.681vw + 5.208rem, 15.625rem));
-    text-align: center;
+    width: calc(clamp(9.375rem, 8.681vw + 5.208rem, 15.625rem));
+    align-self: center;
 }
 
 .h2-navbar { font-size: 20px !important; }
